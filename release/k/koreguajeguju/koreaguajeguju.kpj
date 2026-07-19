@@ -29,5 +29,11 @@
         <Version>1.0</Version>
       </Details>
     </File>
+    <File>
+      <ID>id_font_andika</ID>
+      <Filename>Andika-Regular.ttf</Filename>
+      <Filepath>Andika-Regular.ttf</Filepath>
+      <FileType>.ttf</FileType>
+    </File>
   </Files>
 </KeymanDeveloperProject>
