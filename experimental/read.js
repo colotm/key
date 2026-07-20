@@ -1,4 +1,4 @@
-# How the Repository is Organized
+# How the Repository is Ogranized
 
 Keyboards are grouped into three folders: release, experimental and legacy.
 
