@@ -1,0 +1,120 @@
+c Hfkos Spanish Keyboard Layout for Keyman
+c Integrated with dead keys for acute accents and diaeresis
+
+store(&VERSION) '10.0'
+store(&NAME) 'Hfkos Spanish'
+store(&TARGETS) 'windows macintosh linux web'
+store(&VISUALKEYBOARD) 'hfkos_es.kvk'
+store(&LAYOUTFILE) 'hfkos_es.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- DEAD KEY DEFINITIONS ---
+c Using the QWERTY [K_O] key as the accent trigger
+store(dk_acute)  '´'
+store(dk_diaer)  '¨'
+
+c --- BASE LAYER: HOME ROW ---
++ [K_A] > 'h'
++ [K_S] > 'f'
++ [K_D] > 'k'
++ [K_F] > 'o'
++ [K_G] > 's'
++ [K_H] > 'l'
++ [K_J] > 'm'
++ [K_K] > 'p'
++ [K_L] > 'r'
++ [K_COLON] > 't'
+
+c --- BASE LAYER: TOP ROW ---
++ [K_Q] > 'ñ'
++ [K_W] > 'a'
++ [K_E] > 'e'
++ [K_R] > 'n'
++ [K_T] > 'w'
++ [K_Y] > 'y'
++ [K_U] > 'q'
++ [K_I] > 'c'
++ [K_O] > dk(dk_acute)       c Dead key for acute accent (á, é, í, ó, ú)
+
+c --- BASE LAYER: BOTTOM ROW ---
++ [K_Z] > 'i'
++ [K_X] > 'u'
++ [K_C] > 'g'
++ [K_V] > 'b'
++ [K_B] > 'd'
++ [K_N] > 'j'
++ [K_M] > 'v'
++ [K_COMMA] > 'x'
++ [K_PERIOD] > 'z'
++ [K_SLASH] > '.'
+
+
+c ===================================================
+c --- SHIFT LAYER ---
+c ===================================================
+
+c --- SHIFT LAYER: HOME ROW ---
++ [SHIFT K_A] > 'H'
++ [SHIFT K_S] > 'F'
++ [SHIFT K_D] > 'K'
++ [SHIFT K_F] > 'O'
++ [SHIFT K_G] > 'S'
++ [SHIFT K_H] > 'L'
++ [SHIFT K_J] > 'M'
++ [SHIFT K_K] > 'P'
++ [SHIFT K_L] > 'R'
++ [SHIFT K_COLON] > 'T'
+
+c --- SHIFT LAYER: TOP ROW ---
++ [SHIFT K_Q] > 'Ñ'
++ [SHIFT K_W] > 'A'
++ [SHIFT K_E] > 'E'
++ [SHIFT K_R] > 'N'
++ [SHIFT K_T] > 'W'
++ [SHIFT K_Y] > 'Y'
++ [SHIFT K_U] > 'Q'
++ [SHIFT K_I] > 'C'
++ [SHIFT K_O] > dk(dk_diaer)      c Shifted dead key for diaeresis (ü)
+
+c --- SHIFT LAYER: BOTTOM ROW ---
++ [SHIFT K_Z] > 'I'
++ [SHIFT K_X] > 'U'
++ [SHIFT K_C] > 'G'
++ [SHIFT K_V] > 'B'
++ [SHIFT K_B] > 'D'
++ [SHIFT K_N] > 'J'
++ [SHIFT K_M] > 'V'
++ [SHIFT K_COMMA] > 'X'
++ [SHIFT K_PERIOD] > 'Z'
+
+
+c ===================================================
+c --- DEAD KEY ACTIONS ---
+c ===================================================
+
+c --- Acute Accent (´) Actions ---
+dk(dk_acute) + [K_W] > 'á'
+dk(dk_acute) + [K_E] > 'é'
+dk(dk_acute) + [K_Z] > 'í'
+dk(dk_acute) + [K_F] > 'ó'
+dk(dk_acute) + [K_X] > 'ú'
+
+dk(dk_acute) + [SHIFT K_W] > 'Á'
+dk(dk_acute) + [SHIFT K_E] > 'É'
+dk(dk_acute) + [SHIFT K_Z] > 'Í'
+dk(dk_acute) + [SHIFT K_F] > 'Ó'
+dk(dk_acute) + [SHIFT K_X] > 'Ú'
+
+c Fallback: spacebar or hitting accent twice outputs the symbol standalone
+dk(dk_acute) + [K_SPACE] > '´'
+dk(dk_acute) + [K_O] > '´'
+
+c --- Diaeresis (¨) Actions ---
+dk(dk_diaer) + [K_X] > 'ü'
+dk(dk_diaer) + [SHIFT K_X] > 'Ü'
+
+c Fallback: spacebar outputs the symbol standalone
+dk(dk_diaer) + [K_SPACE] > '¨'
