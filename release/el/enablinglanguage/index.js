@@ -57,7 +57,7 @@ Marghi Central
 Mgbolizhia
 Niuean
 Nheastern Dinka
-Nthwestern Dinka
+Northwestern Dinka
 Nuer
 Nupe-Nupe-Tako
 Obolo
