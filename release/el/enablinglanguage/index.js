@@ -56,7 +56,7 @@ Maori
 Marghi Central
 Mgbolizhia
 Niuean
-Nheastern Dinka
+Norheastern Dinka
 Northwestern Dinka
 Nuer
 Nupe-Nupe-Tako
