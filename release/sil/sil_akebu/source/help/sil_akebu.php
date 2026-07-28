@@ -10,9 +10,7 @@ require_once('header.php');
   <p>Ce document explique l’usage du clavier Keyman élaboré pour taper la langue akebu de Togo avec une police Unicode.
   </p>
 
-  <p>Il y a deux principes de base pour l’usage de ce clavier :</p>
-
-  <ol>
+  <p>Il y a deux principes de base pour l’usage de ce clavier :</p>  <ol>
     <li>Taper des caractères spéciaux avec point d'exclamation (!) suivi d’un autre caractère.</li>
     <li>Taper les diacritiques avec une touche spéciale après le caractère à modifier.</li>
   </ol>
