@@ -1,4 +1,4 @@
-<?php 
+
   $pagename = 'Dene Keyboard Help';
   $pagetitle = $pagename;
   // Header we will tidy up later  
