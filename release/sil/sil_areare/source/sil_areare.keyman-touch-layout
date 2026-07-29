@@ -294,6 +294,7 @@
               {
                 "id": "K_G",
                 "text": "Ɂ",
+                "nextlayer": "default"
                 "sk": [
                   {
                     "text": "G",
@@ -308,6 +309,7 @@
               {
                 "id": "K_J",
                 "text": "J"
+                "nextlayer": "default"
               },
               {
                 "id": "K_K",
