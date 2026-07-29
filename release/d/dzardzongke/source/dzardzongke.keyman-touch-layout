@@ -380,7 +380,7 @@
                 "id": "K_SHIFT",
                 "text": "*Shift*",
                 "sp": 2,
-                "nextlayer": "default"
+                "nextlayer": "shift"
               },
               {
                 "id": "K_Z",
