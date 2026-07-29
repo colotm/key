@@ -1,7 +1,7 @@
 <?php 
   $pagename = 'Skarù·reʔ Keyboard Help';
   $pagetitle = 'Skarù·reʔ Keyboard Help';
-  $pagestyle = <<<END
+  $pagestyle = <<<EN
   
 #wikitext table { margin: 12px; }
 #wikitext table td { border: solid 1px #888888 !important }
