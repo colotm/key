@@ -193,6 +193,8 @@
               {
                 "id": "U_002C",
                 "text": ","
+                "nextlayer": "shift"
+
               },
               {
                 "id": "U_02BC",
@@ -471,7 +473,7 @@
               {
                 "id": "U_02D1",
                 "text": "ˑ",
-                "nextlayer": "default"
+                "nextlayer": "numeric"
               },
               {
                 "id": "T_uap",
