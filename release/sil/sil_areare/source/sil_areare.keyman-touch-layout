@@ -144,6 +144,7 @@
               {
                 "id": "K_PERIOD",
                 "text": ".",
+                "nextlayer": "shift"
                 "sk": [
                   {
                     "text": ",",
@@ -151,12 +152,13 @@
                   },
                   {
                     "text": "!",
-                    "id": "K_1",
+                    "id": "K_1",                "nextlayer": "shift"
                     "layer": "shift"
                   },
                   {
                     "text": "?",
                     "id": "K_SLASH",
+                "nextlayer": "shift"
                     "layer": "shift"
                   },
                   {
@@ -232,42 +234,52 @@
               {
                 "id": "K_Q",
                 "text": "Q"
+                "nextlayer": "default"
               },
               {
                 "id": "K_W",
                 "text": "W"
+                "nextlayer": "default"
               },
               {
                 "id": "K_E",
                 "text": "E"
+                "nextlayer": "default"
               },
               {
                 "id": "K_R",
-                "text": "R"
+                "text": "R"        
+"nextlayer": "default"
               },
               {
                 "id": "K_T",
                 "text": "T"
+                "nextlayer": "default"
               },
               {
                 "id": "K_Y",
                 "text": "Y"
+                "nextlayer": "default"
               },
               {
                 "id": "K_U",
                 "text": "U"
+                "nextlayer": "default"
               },
               {
                 "id": "K_I",
                 "text": "I"
+                "nextlayer": "default"
               },
               {
                 "id": "K_O",
                 "text": "O"
+                "nextlayer": "default"
               },
               {
                 "id": "K_P",
                 "text": "P"
+                "nextlayer": "default"
               }
             ]
           },
@@ -277,49 +289,60 @@
               {
                 "id": "K_A",
                 "text": "A",
+                "nextlayer": "default"
                 "pad": "50"
               },
               {
                 "id": "K_S",
                 "text": "S"
+"nextlayer": "default"
               },
               {
                 "id": "K_D",
                 "text": "D"
+                "nextlayer": "default"
               },
               {
                 "id": "K_F",
                 "text": "F"
+                "nextlayer": "default"
               },
               {
                 "id": "K_G",
                 "text": "Ɂ",
+                "nextlayer": "default"
                 "sk": [
                   {
                     "text": "G",
                     "id": "U_0047"
+                "nextlayer": "default"
                   }
                 ]
               },
               {
                 "id": "K_H",
                 "text": "H"
+"nextlayer": "default"
               },
               {
                 "id": "K_J",
                 "text": "J"
+                "nextlayer": "default"
               },
               {
                 "id": "K_K",
                 "text": "K"
+                "nextlayer": "default"
               },
               {
                 "id": "K_L",
-                "text": "L"
+                "text": "L"       
+"nextlayer": "default"
               },
               {
                 "id": "T_new_1080",
                 "text": "",
+                "nextlayer": "default"
                 "width": "10",
                 "sp": "10"
               }
@@ -337,34 +360,42 @@
               {
                 "id": "K_Z",
                 "text": "Z"
+                "nextlayer": "default"
               },
               {
                 "id": "K_X",
                 "text": "X"
+                "nextlayer": "default"
               },
               {
                 "id": "K_C",
                 "text": "C"
+                "nextlayer": "default"
               },
               {
                 "id": "K_V",
                 "text": "V"
+                "nextlayer": "default"
               },
               {
                 "id": "K_B",
                 "text": "B"
+                "nextlayer": "default"
               },
               {
                 "id": "K_N",
                 "text": "N"
+                "nextlayer": "default"
               },
               {
                 "id": "K_M",
                 "text": "M"
+                "nextlayer": "default"
               },
               {
                 "id": "K_PERIOD",
                 "text": ">",
+                "nextlayer": "default"
                 "sk": [
                   {
                     "text": ",",
